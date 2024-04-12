@@ -329,9 +329,8 @@ elif selected_page == "Data Prediction":
     })
 
     st.subheader("Tabel Hasil Prediksi:")
-    st.write(result)  # Menampilkan tabel hasil prediksi
+    st.write(result)
 
-    # Menampilkan kesimpulan
     st.subheader("Kesimpulan:")
     st.write(f"Produk: {selected_product_name} dari brand: {selected_brand_name} dengan rating: {selected_rating_released}, loves_count: {selected_loves_count}, dan reviews: {selected_reviews} merupakan produk yang: {product_recommended}")
 
